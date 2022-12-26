@@ -7,11 +7,17 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <!--滑轮显示图片 用法见文档第5项，对应基本功能第20条-->
-        <android.support.v4.view.ViewPager
-            android:id="@+id/viewPager"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"  />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <!--滑轮显示图片 用法见文档第5项，对应基本功能第20条-->
+            <!--
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"  />
+                -->
+        </LinearLayout>
 
         <!--添加user_home_store_item-->
         <androidx.recyclerview.widget.RecyclerView

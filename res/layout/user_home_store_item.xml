@@ -21,6 +21,7 @@
             <ImageView
                 android:id="@+id/store_image"
                 android:layout_width="60dp"
+                android:background="@drawable/store"
                 android:layout_height="match_parent" />
 
             <TextView
@@ -29,6 +30,7 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center_vertical"
                 android:layout_marginLeft="10dp"
+                android:text="学二食堂"
                 android:gravity="center"
                 android:textColor="@color/black"
                 android:textSize="24sp"
